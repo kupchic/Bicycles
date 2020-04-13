@@ -50,6 +50,7 @@ header {
 #mobile_header {
   display: none;
   padding: 20px 0;
+  background-color: transparent;
   text-align: center;
   margin: 0 auto;
 }
@@ -98,7 +99,7 @@ header {
 }
 
 .divForImgNone:after {
-  display: none;
+  display: none !important;
 }
 
 @-webkit-keyframes iliketomoveit {

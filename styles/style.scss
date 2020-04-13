@@ -28,7 +28,7 @@ header {
 #mobile_header {
     display: none;
     padding: 20px 0;
-
+    background-color: transparent;
     text-align: center;
     margin: 0 auto;
 
@@ -36,7 +36,6 @@ header {
         height: 130px;
         width: auto;
         position: relative;
-
     }
 
     .mobile_menu {
@@ -80,7 +79,7 @@ header {
 
 .divForImgNone {
     &:after {
-        display: none;
+        display: none !important;
     }
 }
 
