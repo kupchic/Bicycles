@@ -26,7 +26,6 @@ imgMob.addEventListener("click", function () {
   toggleStyle(menu, "display", "block");
   toggleStyle(header, 'backgroundColor', 'rgba(61, 57, 57, 0.5)');
   headerDiv.classList.add('divForImgNone');
-
 });
 window.addEventListener('scroll', () => {
   if (menu.style.display !== 'none') {
